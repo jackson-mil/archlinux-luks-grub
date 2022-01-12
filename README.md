@@ -172,7 +172,7 @@ grub-install --target=x86_64-efi --efi-directory=/mnt/boot/ --bootloader-id=GRUB
 
 - Generate the grub configuration
 
-	' grub-mkconfig -o /boot/grub/grub.cfg '
+	`grub-mkconfig -o /boot/grub/grub.cfg`
 
 22. Tidying up
 
