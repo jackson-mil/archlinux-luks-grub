@@ -24,10 +24,11 @@ Below is my Application recommendation after you have completed the installation
 - **Communication:** whatsapp-nativefier
 - **Music:** spotify-qt and spotifyd
 - **Movie and TV Shows:** plexmediaplayer, mpv
-- **Gaming:** Steam
+- **Gaming:** steam
 - **GUI Folder Management:** pcmanfm-gtk
 - **Optimise laptop battery:** auto-cpufreq
 - **Use trash-put instead of rm:** trash-cli
+- **Check disk utilization quickly:** ncdu
 
 If you have not been exposed to any other Linux distribution before, Archlinux is not a suitable first distribution for you, to quote Archwiki:
 
