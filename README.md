@@ -113,10 +113,12 @@ mount /dev/sda1 /mnt/boot
 `vim /etc/locale.gen`
 
 - Uncomment the following line in the file
+
 	> en_US.UTF-8 UTF-8
 
 - Run the following command to generate locale
-`locale-gen`
+
+	`locale-gen`
 
 - Add the following configuration parameters in the locale.conf file
 
@@ -165,6 +167,7 @@ grub-install --target=x86_64-efi --efi-directory=/mnt/boot/ --bootloader-id=GRUB
 `vim /etc/default/grub`
 
 - Edit the following section similar to the following:
+
 	> GRUB_CMDLINE_LINUX="cryptdevice=/dev/sda2:cryptroot"
 
 - Generate the grub configuration
@@ -173,11 +176,11 @@ grub-install --target=x86_64-efi --efi-directory=/mnt/boot/ --bootloader-id=GRUB
 
 22. Tidying up
 
-	a. Exit your system
+- Exit your system
 	
 	`exit`
 
-	b. Unmount all drive
+- Unmount all drive
 
 	`umount -R /mnt`
 
